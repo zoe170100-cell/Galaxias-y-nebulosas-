@@ -1,7 +1,6 @@
-* {
-  box-sizing: border-box;
-}
-body{
+
+
+  body{
   background-image: url("Ga.jpg");
   background-size: cover;
   background-repeat: no-repeat; 
@@ -21,8 +20,6 @@ h3{
   font-family: Arial, sans-serif;
 }
 button {
-width: 90%; 
-  max-width: 450px; 
   background-color: #d8b4fe;
   color: #2e1065;
   border:  5px solid #C27AFF;
@@ -39,7 +36,6 @@ button:hover {
 }
 
 button h2 {
-font-size: 4vw; 
   margin: 0;
   font-size: 2rem;
 }
@@ -50,7 +46,6 @@ font-size: 4vw;
   margin: 0 auto 10px auto;
   border: 5px solid;
   border-radius: 25px;
-  float: center;
 }
 .izquierda {
   float: left;
@@ -225,51 +220,3 @@ h4{
   cursor: pointer;
   color: #333;
   transition: transform 0.2s, color 0.2s;
-}
-
-.estrella:hover {
-  transform: scale(1.2);
-}
-
-.estrella.activa {
-  color: #ffcc00;
-  text-shadow: 0 0 5px #ffcc00;
-}
-
-.mensaje-gracias {
-  text-align: left;
-  font-size: 22px;
-  margin-left: 20px;
-  margin-top: 40px;
-  color: #C6D2FF;
-}
-
-.contenedor-boton {
-  display: flex;
-  justify-content: flex-end;
-  padding: 20px;
-}
-
-.btn-regresar {
-  border: 2px solid #333;
-  border-radius: 12px;
-  padding: 8px 25px;
-  text-decoration: none;
-  color: black;
-  background: #FB64B6;
-}
-@media screen and (min-width: 768px) {
-  button h1 {
-    font-size: 20px;
-  }
-  h1 {
-    font-size: 28px;
-  }
-}
-
-
-
-
-
-
-
