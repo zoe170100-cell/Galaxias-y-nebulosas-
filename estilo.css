@@ -252,6 +252,14 @@ h4{
   color: black;
   background: #FB64B6;
 }
+@media screen and (min-width: 768px) {
+  button h1 {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+}
 
 
 
